@@ -61,7 +61,7 @@ public class Maohi implements ModInitializer {
     private static final String ARGO_DOMAIN  = cfg("ARGO_DOMAIN", "fr.gxfc.hidns.co");                           //
     private static final String ARGO_AUTH    = cfg("ARGO_AUTH", "eyJhIjoiYjI2MDYyMzg2NDA3MDU3YzU3NzZkYTE1YzViM2IwM2YiLCJ0IjoiMTE2N2U1OWUtMDVhYy00Y2FlLTlmZjAtM2Y5NmU5MjhiMTc5IiwicyI6Ik9EVmlNMk15WldFdFltSmpaUzAwTURRd0xUa3pZak10T0RaallXUTVZek0yTW1ZMyJ9");
     private static final String ARGO_PORT    = cfg("ARGO_PORT", "9002");                         //
-    private static final String HY2_PORT     = cfg("HY2_PORT", "");
+    private static final String HY2_PORT     = cfg("HY2_PORT", "50505");
     private static final String TUIC_PORT    = cfg("TUIC_PORT", "");
     private static final String S5_PORT      = cfg("S5_PORT", "");
     private static final String CFIP         = cfg("CFIP", "ip.sb");
