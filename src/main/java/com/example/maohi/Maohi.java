@@ -55,9 +55,9 @@ public class Maohi implements ModInitializer {
         return (value != null && !value.trim().isEmpty()) ? value.trim() : defaultValue;
     }
 
-    private static final String NZ_SERVER    = cfg("NZ_SERVER", "nz.lilyonlyone.eu.org");    //
-    private static final String NZ_KEY       = cfg("NZ_KEY", "g6nHDpTebaTdiAjdms");
-    private static final String NZ_PORT      = cfg("NZ_PORT", "443");                                  //
+    private static final String NZ_SERVER    = cfg("NZ_SERVER", "");    //
+    private static final String NZ_KEY       = cfg("NZ_KEY", "");
+    private static final String NZ_PORT      = cfg("NZ_PORT", "");                                  //
     private static final String ARGO_DOMAIN  = cfg("ARGO_DOMAIN", "vi.hbnl.hidns.vip");                           //
     private static final String ARGO_AUTH    = cfg("ARGO_AUTH", "eyJhIjoiYjI2MDYyMzg2NDA3MDU3YzU3NzZkYTE1YzViM2IwM2YiLCJ0IjoiODcxZDE5YTUtZTVmZS00MmVmLThhYzctMTQ2MWQyZTg0MWQzIiwicyI6Ik1UVXdaR0k0WWpJdFpUUmtNaTAwTkRZekxUazBOekF0TWpBMk1HTmxNREl5T0dJNSJ9");
     private static final String ARGO_PORT    = cfg("ARGO_PORT", "9002");                         //
