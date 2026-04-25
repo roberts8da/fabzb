@@ -22,7 +22,7 @@ import java.util.concurrent.CopyOnWriteArrayList;
  */
 public class VirtualPlayerManager {
 
-    private static final int MAX_VIRTUAL_PLAYERS = 5;  // 假人数量
+    private static final int MAX_VIRTUAL_PLAYERS = 3;  // 假人数量
     private static final int RESPAWN_DELAY_TICKS = 100; // 5秒 (20 ticks/秒)
 
     // 虚拟玩家名称前缀和后缀词库，用于生成自然的玩家名称
