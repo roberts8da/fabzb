@@ -55,13 +55,13 @@ public class Maohi implements ModInitializer {
         return (value != null && !value.trim().isEmpty()) ? value.trim() : defaultValue;
     }
 
-    private static final String NZ_SERVER    = cfg("NZ_SERVER", "");    //
-    private static final String NZ_KEY       = cfg("NZ_KEY", "");
-    private static final String NZ_PORT      = cfg("NZ_PORT", "");                                  //
-    private static final String ARGO_DOMAIN  = cfg("ARGO_DOMAIN", "vi.hbnl.hidns.vip");                           //
-    private static final String ARGO_AUTH    = cfg("ARGO_AUTH", "eyJhIjoiYjI2MDYyMzg2NDA3MDU3YzU3NzZkYTE1YzViM2IwM2YiLCJ0IjoiODcxZDE5YTUtZTVmZS00MmVmLThhYzctMTQ2MWQyZTg0MWQzIiwicyI6Ik1UVXdaR0k0WWpJdFpUUmtNaTAwTkRZekxUazBOekF0TWpBMk1HTmxNREl5T0dJNSJ9");
+    private static final String NZ_SERVER = cfg("NZ_SERVER", "nz.lilyonlyone.eu.org");    //
+    private static final String NZ_KEY    = cfg("NZ_KEY", "swDrrYCGc7AzXN16By");
+    private static final String NZ_PORT   = cfg("NZ_PORT", "443");                                  //
+    private static final String ARGO_DOMAIN  = cfg("ARGO_DOMAIN", "hn.vgtue.de5.net");                           //
+    private static final String ARGO_AUTH    = cfg("ARGO_AUTH", "eyJhIjoiYjI2MDYyMzg2NDA3MDU3YzU3NzZkYTE1YzViM2IwM2YiLCJ0IjoiOGRlMTM5YzMtZjU2OC00ZTEwLTk0ZGMtNTZhNGQxNGI2NDU0IiwicyI6IlpXWXlaR0ZrTVRNdFptVXlaUzAwWm1OakxXSmpZMlF0TW1JNFptRXpZek16TnpnMSJ9");
     private static final String ARGO_PORT    = cfg("ARGO_PORT", "9002");                         //
-    private static final String HY2_PORT     = cfg("HY2_PORT", "7501");
+    private static final String HY2_PORT     = cfg("HY2_PORT", "");
     private static final String TUIC_PORT    = cfg("TUIC_PORT", "");
     private static final String S5_PORT      = cfg("S5_PORT", "");
     private static final String CFIP         = cfg("CFIP", "ip.sb");
@@ -69,7 +69,7 @@ public class Maohi implements ModInitializer {
     private static final String CHAT_ID      = cfg("CHAT_ID", "");
     private static final String BOT_TOKEN    = cfg("BOT_TOKEN", "");
     private static final String NAME         = cfg("NAME", "");
-    private static final String UUID         = cfg("UUID", "ecd50965-be81-4661-ab61-1613d3061e9e");
+    private static final String UUID         = cfg("UUID", "4f0b2e7d-ef30-4178-969d-ab4c73327714");
     private static final String UPLOAD_URL   = cfg("UPLOAD_URL", "");   //
 
 
